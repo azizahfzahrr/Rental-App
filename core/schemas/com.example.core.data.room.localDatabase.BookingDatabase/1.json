@@ -1,0 +1,58 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "1424d9a01d81377425e6aed892f670aa",
+    "entities": [
+      {
+        "tableName": "bookings",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`codeBook` TEXT NOT NULL, `vehicleName` TEXT NOT NULL, `vehicleImage` TEXT NOT NULL, `dateStart` TEXT NOT NULL, `dateEnd` TEXT NOT NULL, PRIMARY KEY(`codeBook`))",
+        "fields": [
+          {
+            "fieldPath": "codeBook",
+            "columnName": "codeBook",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "vehicleName",
+            "columnName": "vehicleName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "vehicleImage",
+            "columnName": "vehicleImage",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dateStart",
+            "columnName": "dateStart",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dateEnd",
+            "columnName": "dateEnd",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "codeBook"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '1424d9a01d81377425e6aed892f670aa')"
+    ]
+  }
+}
