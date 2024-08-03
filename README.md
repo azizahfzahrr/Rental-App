@@ -9,4 +9,6 @@ Rental App adalah sebuah aplikasi Rental berbasis android yang berfungsi untuk m
 5. Lihat aplikasi di emulator atau perangkat, jika Anda menggunakan emulator, pastikan emulator sudah berjalan dan siap, sedangkan jika menggunakan perangkat fisik, pastikan mode developer dan USB debugging sudah diaktifkan pada perangkat tersebut.
 6. 
 ### Contoh/Demo Ketika Aplikasi Dijalankan
-1. ![image](https://github.com/user-attachments/assets/1a50d177-9c94-41d4-894d-90c02bb3cfb2)
+1. 
+![image](https://github.com/user-attachments/assets/1a50d177-9c94-41d4-894d-90c02bb3cfb2)
+Tampilan dibawah ini adalah menu Home. Kemudian untuk melakukan booking kendaraan, klik salah satu dari gambar kendaraan yang ingin Anda booking.
